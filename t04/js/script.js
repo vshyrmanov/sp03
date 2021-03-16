@@ -12,7 +12,9 @@ const concat = (string1, string2) => {
     return `${string1} ${string2}`;
   }
 
-let phrase1 = concat("Hulk", "smash!"); let output = phrase1; console.log(output); // Hulk smash!
+let phrase1 = concat("Hulk", "smash!"); 
+let output = phrase1; 
+console.log(output); // Hulk smash!
 let phrase2 = concat("Leave");
 output = phrase2();
 // a prompt appears. Enter "Hulk alone!" into the prompt
